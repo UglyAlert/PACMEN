@@ -7,7 +7,7 @@
 На данный момент 2022.06.19 он может принять 5 типов:
 
 -bool
--unsigned inchar
+-unsigned char
 -int
 -float
 -double

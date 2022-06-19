@@ -17,7 +17,7 @@ class MAINARRAY
 	MAINARRAY ()	{}
 	MAINARRAY (void* CO, TYPES O_CO) : COUNT(CO), OF_COUNT(O_CO) {}
 	template <class T> MAINARRAY (T);
-	~MAINARRAY ()	{	delete COUNT;	}
+	~MAINARRAY ()	{}
 	friend ostream& operator<< (ostream&, MAINARRAY&);
 	MAINARRAY operator= (MAINARRAY&);
 //	MAINARRAY operator[] (MAINARRAY&);

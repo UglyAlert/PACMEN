@@ -44,7 +44,7 @@ class MAINARRAY
 		COUNT = new double (*(static_cast <double*> (ob.COUNT)));
 			break;
 		case CH: 
-		COUNT = new char (*(static_cast <unsigned char*> (ob.COUNT)));
+		COUNT = new unsigned char (*(static_cast <unsigned char*> (ob.COUNT)));
 			break;
 		case B: 
 		COUNT = new bool (*(static_cast <bool*> (ob.COUNT)));
